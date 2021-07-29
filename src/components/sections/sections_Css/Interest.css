@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+.interestSection{
+    width: 90%;
+    height: 90vh;
+    font-family: 'Special Elite', cursive;
+    color:whitesmoke;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#pics{
+    width: 12vw;
+    flex-basis: 22%;
+}

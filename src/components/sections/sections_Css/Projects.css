@@ -1,57 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 .projects_Section {
+  width: 90%;
+  height: 90vh;
+  color:whitesmoke;
+  font-family: 'Special Elite', cursive;
+}
+.projectEq{
+  float: left;
+  font-family: 'Tinos', serif;
+  font-size: 1.5vw;
+  margin-right: 2vw;
+}
+.allProjects{
+  display: flex;
+  flex-direction: column;
+}
+.easyLink{
+  display: flex;
   width: 100%;
-  height: 100vh;
-  display: flex;
-justify-content: center;
-align-items: center;
-}
-.projectsDiv{
-  width: 100%;
-  height: 100%;
-  display: flex;
+  height: 22vh;
   justify-content: center;
   align-items: center;
+  font-family: 'Tinos', serif;
+  font-size: 1.7vw;
 }
-#pr{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 18vw;
-  height: 80%;
-  margin: 1vw;
-  font-size: 1.5vw;
-  text-align: center;
-  background-color: #fbfbfd;
-
-}
-#pr:hover{
-  transform: translate(0, -15px);
-    
-}
-.normal{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 18vw;
-  height: 80%;
-  margin: 1vw;
-  font-size: 1.5vw;
-  text-align: center;
-  background-color: #fbfbfd;
-
-}
-.expandedDiv{
-  background-color: yellow;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 1vw;
-  font-size: 1.5vw;
-  text-align: center;
-  transition: width 2s, height 4s;
-  width: 50vw;
-  height: 80%;
+.easyLink:hover{
+  transform: scale(1.1);
 }

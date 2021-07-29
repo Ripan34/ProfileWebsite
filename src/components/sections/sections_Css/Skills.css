@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+.skillsSection{
+    width: 90%;
+    height: 95vh;
+    font-family: 'Special Elite', cursive;
+    color:whitesmoke;
+}
+.chart{
+    display: flex;
+    justify-content:space-between;
+}
+.otherSkills{
+    width: 40%;
+    height: 60vh;
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid rgba(255, 99, 132);
+    border-bottom: 3px solid rgba(255, 99, 132);
+}
+.pics{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#pic{
+    width: 9vw;
+    height: auto;
+    flex-basis: 20%;
+    margin: 1vw;
+}

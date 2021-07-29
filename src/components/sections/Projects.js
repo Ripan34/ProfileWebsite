@@ -1,56 +1,63 @@
 import "./sections_Css/Projects.css";
 import ExtensionIcon from "./sections_Css/ExtensionIcon.png";
-import ComputerIcon from "@material-ui/icons/Computer";
-import FileCopyIcon from "@material-ui/icons/FileCopy";
-import React, { useState, useRef, useEffect} from "react";
-
+import noteSharing from './noteSharing.png';
+import React from "react";
 
 const Projects = (props) => {
-    const [isExpanded, setExpanded] = useState(false);
-    const expandDiv = () => {
-        setExpanded(true);
-    }
-
-
 
   return (
     <section className="projects_Section">
-        <div className="projectsDiv">
+      <h1 style={{ fontSize: "3vw" }}>Projects</h1>
+      <h1 className="projectEq">
+          myProjects = <br /> [ new{" "}
+        </h1>
+      <div className="allProjects">
+        <div className="easyLink">
+          <h3
+            style={{
+              fontFamily: "Tinos, serif",
+              fontSize: "6vw",
+              marginRight: "2vw",
+            }}
+          >
+            (
+          </h3>
+          <img style={{ width: "13vw" }} src={ExtensionIcon} alt="Extension"></img>A published
+          google chrome extension to add, and access class zoom sessions using
+          JavaScript and jQuery.
+          <h3 style={{ fontFamily: "Tinos, serif", fontSize: "6vw" }}>),</h3>
+        </div>
+        <div className="easyLink">
+          <h3
+            style={{
+              fontFamily: "Tinos, serif",
+              fontSize: "6vw",
+              marginRight: "2vw",
+            }}
+          >
+            <span style={{fontSize: "1.5vw"}}>new</span>(
+          </h3>
+          <img style={{ width: "17vw", height: "auto" }} src={noteSharing} alt="Note Sharing"></img> A web application to share and browse notes 
+          among all students in a class for easy note taking. Embedded JavaScript, AJAX, HTML/CSS and Bootstrap.
+          <h3 style={{ fontFamily: "Tinos, serif", fontSize: "6vw" }}>),</h3>
+        </div>
 
-      <div onClick={expandDiv} className={`${isExpanded ? 'expandedDiv' : 'normal'}`} >
-        <div style={{ marginBottom: "4vw" }}>
-          <img
-            src={ExtensionIcon}
-            style={{ width: "9vw", height: "auto" }}
-          ></img>
+        <div className="easyLink">
+          <h3
+            style={{
+              fontFamily: "Tinos, serif",
+              fontSize: "6vw",
+              marginRight: "2vw",
+            }}
+          >
+           <span style={{fontSize: "1.5vw"}}>new</span>(
+          </h3>
+          <img style={{ width: "13vw" }} src={ExtensionIcon} alt="thirdProject"></img>A published
+          google chrome extension to add, and access class zoom sessions using
+          JavaScript and jQuery.
+          <h3 style={{ fontFamily: "Tinos, serif", fontSize: "6vw" }}>)];</h3>
+        </div>
 
-          <h2>Easy</h2>
-          <h2>Link</h2>
-        </div>
-      </div>
-      <div id="pr">
-        <div style={{ marginBottom: "4vw" }}>
-          <ComputerIcon style={{ width: "9vw", height: "auto" }} />
-
-          <h2>Class</h2>
-          <h2>Note</h2>
-          <h2>Sharing</h2>
-        </div>
-      </div>
-      <div id="pr">
-        <div style={{ marginBottom: "4vw" }}>
-          <FileCopyIcon style={{ width: "9vw", height: "auto" }} />
-          <h2>Catalog</h2>
-          <h2>Generator</h2>
-        </div>
-      </div>
-      <div id="pr">
-        <div style={{ marginBottom: "4vw" }}>
-          <h2>Pokemon</h2>
-          <h2>Search</h2>
-          <h2>with Qt C++</h2>
-        </div>
-      </div>
       </div>
     </section>
   );
