@@ -1,10 +1,10 @@
 import "./sections_Css/Interest.css";
-import soccer from "./soccer.png";
-import volleyball from "./volleyball.png";
-import telescope from "./telescope.png";
-import hiking from "./hiking.png";
-import books from "./books.png";
-import physics from './physics.png';
+import soccer from "./pictures/soccer.png";
+import volleyball from "./pictures/volleyball.png";
+import telescope from "./pictures/telescope.png";
+import hiking from "./pictures/hiking.png";
+import books from "./pictures/books.png";
+import physics from './pictures/physics.png';
 
 const Interest = () => {
     return(

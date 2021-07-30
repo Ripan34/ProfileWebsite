@@ -35,7 +35,6 @@ return (
   <SwiperSlide><Interest/></SwiperSlide>
   <SwiperSlide><Projects/></SwiperSlide>
   <SwiperSlide><Skills/></SwiperSlide>
-  <SwiperSlide>Slide 5</SwiperSlide>
   </Swiper>
     </>
 

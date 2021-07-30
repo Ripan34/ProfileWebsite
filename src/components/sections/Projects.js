@@ -1,6 +1,6 @@
 import "./sections_Css/Projects.css";
 import ExtensionIcon from "./sections_Css/ExtensionIcon.png";
-import noteSharing from './noteSharing.png';
+import noteSharing from './pictures/noteSharing.png';
 import React from "react";
 
 const Projects = (props) => {
