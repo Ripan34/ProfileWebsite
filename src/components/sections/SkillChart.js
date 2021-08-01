@@ -25,10 +25,14 @@ const data = {
       },
     ],
   };
+  const legendHandle = () => {};
   const options = {
 
     responsive: true,
-    maintainAspectRatio: true,
+    maintainAspectRatio: false,
+    responsive: true,
+    animation: false,
+  responsiveAnimationDuration: 0,
     plugins: {
       legend: {
         position: 'right',
@@ -38,21 +42,19 @@ const data = {
                 weight: "bold"
             },
             boxWidth: 100,
-            boxHeight: 60
+            boxHeight: 60,
+            onClick: legendHandle
         }
       }
     }
 };
-
-const SkillChart = () => (
+const SkillChart = () => {
     
-  <>
-   <div style={{width: "53%", height: "auto"}}>
-<Doughnut data={data} height={50} options={options}
-/>
-</div>
+  return(
+   
+<Doughnut data={data} options={options}/>
 
-</>
-);
+  );
+  };
 
 export default SkillChart;

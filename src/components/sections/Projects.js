@@ -22,7 +22,7 @@ const Projects = (props) => {
           >
             (
           </h3>
-          <img style={{ width: "13vw" }} src={ExtensionIcon} alt="Extension"></img>A published
+          <img style={{ width: "10em", height: "auto" }} src={ExtensionIcon} alt="Extension"></img>A published
           google chrome extension to add, and access class zoom sessions using
           JavaScript and jQuery.
           <h3 style={{ fontFamily: "Tinos, serif", fontSize: "6vw" }}>),</h3>
@@ -37,7 +37,7 @@ const Projects = (props) => {
           >
             <span style={{fontSize: "1.5vw"}}>new</span>(
           </h3>
-          <img style={{ width: "17vw", height: "auto" }} src={noteSharing} alt="Note Sharing"></img> A web application to share and browse notes 
+          <img style={{ width: "8em", height: "auto" }} src={noteSharing} alt="Note Sharing"></img> A web application to share and browse notes 
           among all students in a class for easy note taking. Embedded JavaScript, AJAX, HTML/CSS and Bootstrap.
           <h3 style={{ fontFamily: "Tinos, serif", fontSize: "6vw" }}>),</h3>
         </div>
@@ -52,7 +52,7 @@ const Projects = (props) => {
           >
            <span style={{fontSize: "1.5vw"}}>new</span>(
           </h3>
-          <img style={{ width: "13vw" }} src={ExtensionIcon} alt="thirdProject"></img>A published
+          <img style={{ width: "10em", height: "auto" }} src={ExtensionIcon} alt="thirdProject"></img>A published
           google chrome extension to add, and access class zoom sessions using
           JavaScript and jQuery.
           <h3 style={{ fontFamily: "Tinos, serif", fontSize: "6vw" }}>)];</h3>

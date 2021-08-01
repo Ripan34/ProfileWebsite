@@ -11,7 +11,9 @@ const Skills = () => {
         <section className="skillsSection">
             <h1 style={{fontSize: "3vw", marginTop: "5vw"}}>Coding Skills</h1>
             <div className="chart">
+            <article className="canvas-container">
             <SkillChart/>
+            </article>
             
             <div className="otherSkills"> 
                 <div className="pics">

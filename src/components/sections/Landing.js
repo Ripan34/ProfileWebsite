@@ -1,29 +1,38 @@
 import "./sections_Css/Landing.css";
-import React from 'react';
+import React, { useState } from 'react';
 import Slide from 'react-reveal/Slide';
+import MenuIcon from '@material-ui/icons/Menu';
 
 const Landing = () => {
+  const [className, setClassName] = useState(false);
+
+  const menuHandler = () => {
+    setClassName(!className);
+    }
+  //menu Handler
   return (
     <section className="landing_Section">
 
-<ul class="topnav">
-<li><a id="nameH1" href="/">Ripandeep Singh</a></li>
-  <div style={{marginRight:"3vw", marginTop: "8px"}}>
-  <li style={{float:"right", color: "white"}}><a id="links" href="https://www.linkedin.com/in/ripandeep-singh/">LinkedIn</a></li>
-  <li style={{float:"right", color: "white"}}><a id="links" href="https://github.com/Ripan34">GitHub</a></li>
-  <li style={{float:"right", color: "white"}}><a id="links" href="https://twitter.com/Ripan_34">Twitter</a></li>
-  <li style={{float:"right", color: "white"}}><a id="links" href="https://twitter.com/Ripan_34">Resume</a></li>
-  </div>
-</ul>
-<div className="centerName">
+<div class={className ? "topnav responsive": "topnav"} id="myTopnav">
+  <a class="active" id="initials" href="/">RS</a>
+
+  <a href="https://twitter.com/Ripan_34">Resume</a>
+  <a href="https://www.linkedin.com/in/ripandeep-singh/">LinkedIn</a>
+  <a href="https://github.com/Ripan34">GitHub</a>
+  <a href="https://twitter.com/Ripan_34">Twitter</a>
+
+  <a href="javascript:void(0)" class="icon" onClick={menuHandler}>
+    <MenuIcon fontSize={"large"}></MenuIcon></a>
+</div>
+
+
 <Slide left>
         <div className="nameDiv">
-
-        <h2 style={{fontWeight:"bold", fontSize:"3.5vw"}}>Ripandeep Singh</h2>
-        <p style={{ fontSize:"2vw"}}>Software Developer</p>
+        <h2>Ripandeep Singh</h2>
+        <p>Software Developer</p>
         </div>
         </Slide>
-</div>
+
         <svg class="arrows">
 							<path class="a1" d="M0 0 L30 32 L60 0"></path>
 							<path class="a2" d="M0 20 L30 52 L60 20"></path>
@@ -33,3 +42,22 @@ const Landing = () => {
   );
 };
 export default Landing;
+{/* <div class={className ? "topnav responsive": "topnav"} id="myTopnav">
+  <div style={{marginTop: "0.5vw"}}>
+  <a class="active" href="/">RS</a>
+  <a id="links" href="https://twitter.com/Ripan_34">Resume</a>
+  <a id="links" href="https://www.linkedin.com/in/ripandeep-singh/">LinkedIn</a>
+  <a id="links" href="https://github.com/Ripan34">GitHub</a>
+  <a id="links" href="https://twitter.com/Ripan_34">Twitter</a>
+  <a href="javascript:void(0)" class="icon" onClick={menuHandler}>
+    <MenuIcon fontSize={"large"}></MenuIcon></a>
+  </div>
+</div> */}
+// float: left;
+// margin-left: 2vw;
+// font-size: 2.5vw;
+// font-family: "Kaushan Script", cursive;
+// position: fixed;
+// color: white;
+// background-color: #ddd;
+// color: black;
