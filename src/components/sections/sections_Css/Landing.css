@@ -57,13 +57,14 @@
 .ani{
   transition: height 2s;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
     background-color: transparent;
     color: white;
+    border-top: none;
   }
   .topnav{
     background-color: rgba(0, 0, 42, 0.5);
@@ -75,12 +76,14 @@
 
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
+    border-top: none;
+    margin: 10px;
   }
   .topnav.responsive a {
     float: none;
