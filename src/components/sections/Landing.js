@@ -6,7 +6,8 @@ import MenuIcon from '@material-ui/icons/Menu';
 const Landing = () => {
   const [className, setClassName] = useState(false);
 
-  const menuHandler = () => {
+  const menuHandler = (e) => {
+    e.preventDefault();
     setClassName(!className);
     }
   //menu Handler
@@ -21,7 +22,7 @@ const Landing = () => {
   <a href="https://github.com/Ripan34">GitHub</a>
   <a href="https://twitter.com/Ripan_34">Twitter</a>
 
-  <a href="javascript:void(0)" class="icon" onClick={menuHandler}>
+  <a href="/" class="icon" onClick={menuHandler}>
     <MenuIcon fontSize={"large"}></MenuIcon></a>
 </div>
 
@@ -42,22 +43,3 @@ const Landing = () => {
   );
 };
 export default Landing;
-{/* <div class={className ? "topnav responsive": "topnav"} id="myTopnav">
-  <div style={{marginTop: "0.5vw"}}>
-  <a class="active" href="/">RS</a>
-  <a id="links" href="https://twitter.com/Ripan_34">Resume</a>
-  <a id="links" href="https://www.linkedin.com/in/ripandeep-singh/">LinkedIn</a>
-  <a id="links" href="https://github.com/Ripan34">GitHub</a>
-  <a id="links" href="https://twitter.com/Ripan_34">Twitter</a>
-  <a href="javascript:void(0)" class="icon" onClick={menuHandler}>
-    <MenuIcon fontSize={"large"}></MenuIcon></a>
-  </div>
-</div> */}
-// float: left;
-// margin-left: 2vw;
-// font-size: 2.5vw;
-// font-family: "Kaushan Script", cursive;
-// position: fixed;
-// color: white;
-// background-color: #ddd;
-// color: black;

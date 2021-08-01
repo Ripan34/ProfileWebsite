@@ -30,7 +30,6 @@ const data = {
 
     responsive: true,
     maintainAspectRatio: false,
-    responsive: true,
     animation: false,
   responsiveAnimationDuration: 0,
     plugins: {
