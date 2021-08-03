@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+.certificates_Section{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.certificates_Section h1{
+    font-size: 3.5em;
+    font-family: 'Special Elite', cursive;
+    color:whitesmoke;
+}
+.allCert{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+}
+.certs{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.certsRev{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: center;
+}
+.allCert img{
+    width: 15vw;
+    height: auto;
+    margin-left: 2em;
+}
+.allCert p{
+    font-size: 2em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(75, 192, 192, 1);
+    margin-left: 2em;
+}

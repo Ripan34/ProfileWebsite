@@ -2,13 +2,18 @@ import "./sections_Css/Landing.css";
 import React, { useState } from 'react';
 import Slide from 'react-reveal/Slide';
 import MenuIcon from '@material-ui/icons/Menu';
+import MenuOpenIcon from '@material-ui/icons/MenuOpen';
+let menuIcon = <MenuIcon fontSize={"large"}/>;
 
 const Landing = () => {
   const [className, setClassName] = useState(false);
-
   const menuHandler = (e) => {
     e.preventDefault();
     setClassName(!className);
+    if(className)
+      menuIcon = <MenuIcon fontSize={"large"}/>;
+      else
+      menuIcon = <MenuOpenIcon fontSize={"large"}/>;
     }
   //menu Handler
   return (
@@ -16,14 +21,14 @@ const Landing = () => {
 
 <div class={className ? "topnav responsive": "topnav"} id="myTopnav">
   <a class="active" id="initials" href="/">RS</a>
-
-  <a href="https://twitter.com/Ripan_34">Resume</a>
+  <a href="https://twitter.com/Ripan_34">Twitter</a>
   <a href="https://www.linkedin.com/in/ripandeep-singh/">LinkedIn</a>
   <a href="https://github.com/Ripan34">GitHub</a>
-  <a href="https://twitter.com/Ripan_34">Twitter</a>
+  <a href="https://drive.google.com/file/d/1VqUEfmapK5K2J1kgVu_aDuZw1JALoIsj/view?usp=sharing">Resume</a>
+
 
   <a href="/" class="icon" onClick={menuHandler}>
-    <MenuIcon fontSize={"large"}></MenuIcon></a>
+    {menuIcon}</a>
 </div>
 
 

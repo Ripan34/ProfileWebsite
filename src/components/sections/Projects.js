@@ -3,11 +3,11 @@ import ExtensionIcon from "./sections_Css/ExtensionIcon.png";
 import noteSharing from './pictures/noteSharing.png';
 import React from "react";
 
-const Projects = (props) => {
+const Projects = () => {
 
   return (
     <section className="projects_Section">
-      <h1 style={{ fontSize: "3vw" }}>Projects</h1>
+      <h1 id="heading">Projects</h1>
       <h1 className="projectEq">
           myProjects = <br /> [ new{" "}
         </h1>

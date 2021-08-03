@@ -13,6 +13,17 @@
     justify-content: space-evenly;
 }
 #pics{
-    width: 12vw;
+    width: 3em;
     flex-basis: 22%;
+}
+.interestSection h1{
+    font-size: 4em;
+}
+@media screen and (max-width: 768px) {
+#pics{
+    width: 6em;
+}
+.interestSection h1{
+    font-size: 3em;
+}
 }
