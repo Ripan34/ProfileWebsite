@@ -3,8 +3,6 @@ import cr1 from "./pictures/cr1.png";
 import cr2 from "./pictures/cr2.png";
 import cr3 from "./pictures/cr3.png";
 import cr4 from "./pictures/cr4.png";
-import cr5 from "./pictures/cr5.png";
-
 const Certficates = () => {
 
     return (<section className="certificates_Section">
