@@ -9,19 +9,21 @@
 .wrapper{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
     justify-content: space-evenly;
 }
 #pics{
-    width: 3em;
-    flex-basis: 22%;
+    width: 14vw;
+    flex-basis: 21%;
 }
 .interestSection h1{
     font-size: 4em;
 }
 @media screen and (max-width: 768px) {
 #pics{
-    width: 6em;
+    width: 6.5em;
 }
 .interestSection h1{
     font-size: 3em;

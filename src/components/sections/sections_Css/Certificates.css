@@ -1,42 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 .certificates_Section{
-    width: 80%;
-    height: 80vh;
+    width: 90%;
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .certificates_Section h1{
-    font-size: 3.5em;
+    font-size: 4em;
     font-family: 'Special Elite', cursive;
     color:whitesmoke;
 }
 .allCert{
     display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: auto;
+    height: 80%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .certs{
     display: flex;
-    align-items: center;
-    justify-content: left;
-}
-.certsRev{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: right;
+    flex-direction: column;
     align-items: center;
 }
-.allCert img{
-    width: 15vw;
-    height: auto;
-    margin-left: 2em;
-}
-.allCert p{
-    font-size: 2em;
+.certificates_Section p{
+    font-size: 1.6em;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgba(75, 192, 192, 1);
-    margin-left: 2em;
+}
+.allCert img{
+    width: 18em;
+    height: auto;
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+@media screen and (max-width: 768px) {
+    .allCert img{
+        width: 8.5em;
+    }
+    .certificates_Section h1{
+        font-size: 2em;
+    }
+    .certificates_Section p{
+        font-size: 0.7em;
+    }
+    .allCert{
+        flex-basis: 22%;
+    }
+    #rm{
+        display: none;
+    }
 }
