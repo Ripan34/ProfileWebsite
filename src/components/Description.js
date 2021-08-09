@@ -4,6 +4,7 @@ import AboutMe from "./sections/AboutMe";
 import Interest from "./sections/Interest";
 import Skills from "./sections/Skills";
 import  Certificates  from "./sections/Certificates";
+
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";

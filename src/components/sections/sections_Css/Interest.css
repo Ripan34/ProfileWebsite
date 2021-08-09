@@ -21,6 +21,12 @@
 .interestSection h1{
     font-size: 4em;
 }
+.popup button{
+    background-color: #ABE188;
+    color: #0471A6;
+    font-size: large;
+    border-radius: 10px;
+}
 @media screen and (max-width: 768px) {
 #pics{
     width: 6.5em;
