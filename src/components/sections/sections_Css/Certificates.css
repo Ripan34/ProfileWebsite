@@ -23,12 +23,12 @@
     align-items: center;
 }
 .certificates_Section p{
-    font-size: 1.6em;
+    font-size: 1.2em;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgba(75, 192, 192, 1);
 }
 .allCert img{
-    width: 18em;
+    width: 15em;
     height: auto;
 }
 .break {
