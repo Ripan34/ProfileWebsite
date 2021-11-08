@@ -1,4 +1,3 @@
-import SkillChart from "./SkillChart";
 import "./sections_Css/Skills.css";
 import mongo from "./pictures/mongo.png";
 import linux from "./pictures/linux.png";
