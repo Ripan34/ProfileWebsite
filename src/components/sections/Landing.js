@@ -24,7 +24,7 @@ const Landing = () => {
   <a href="https://twitter.com/Ripan_34">Twitter</a>
   <a href="https://www.linkedin.com/in/ripandeep-singh/">LinkedIn</a>
   <a href="https://github.com/Ripan34">GitHub</a>
-  <a href="https://drive.google.com/file/d/1VqUEfmapK5K2J1kgVu_aDuZw1JALoIsj/view?usp=sharing">Resume</a>
+  <a href="https://drive.google.com/file/d/1oq5YpHENlGZnmZapwWf_rhdYZ0M5lD_L/view?usp=sharing">Resume</a>
 
 
   <a href="/" class="icon" onClick={menuHandler}>
