@@ -4,6 +4,7 @@ import linux from "./pictures/linux.png";
 import nodejs from "./pictures/nodejs.png";
 import scala from "./pictures/scala.png";
 import ExpressJS from "./pictures/ExpressJS.png";
+import SkillChart from "./SkillChart";
 
 const Skills = () => {
     return (
@@ -11,8 +12,8 @@ const Skills = () => {
             <h1 style={{fontSize: "3vw", marginTop: "5vw"}}>Coding Skills</h1>
             <div className="chart">
             <article className="canvas-container">
+            <SkillChart/>
             </article>
-            
             <div className="otherSkills"> 
                 <div className="pics">
                 <img  id="pic" src={linux} alt="linux"></img>

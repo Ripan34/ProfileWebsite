@@ -7,7 +7,7 @@ const AboutMe = () => {
 return(
     <section className="aboutMe_Section">
         <h1>About Me</h1>
-        <p id="about"> An undergraduate computer science student at San Jose State University with an interest in software development. Seeking internship and job opportunities to apply my skills and experience assisting a company's needs by developing software applications.</p>
+        <p id="about"> Bachelors in Computer Science from San Jose state university with an interest in software development. Seeking full-time job opportunities to apply my skills and experience assisting a company's needs by developing software applications.</p>
         <div className="school">
             <div className="schoolInfo">
             <img src={sjsuImage} alt="SJSU"></img>
